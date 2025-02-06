@@ -33,7 +33,7 @@ function Support() {
       </div>
 
       <Navbar />
-      <div className="container mx-auto px-8 pt-24 lg:pt-16">
+      <div className="container mx-auto px-8 lg:pt-8">
         <Container>
           <Outlet />
         </Container>

@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import image from "../assets/image.png"; // Update with your logo path
+import image from "/img.png"; // Update with your logo path
 import { IoLogoGithub, IoLogoLinkedin } from "react-icons/io5";
 import { FaSquareInstagram } from "react-icons/fa6";
 import { Link } from "react-router-dom";
@@ -35,11 +35,11 @@ function Navbar() {
 
           <div className="flex items-center">
             <Link to="/">
-              <img className="h-12 w-12" src={image} alt="logo" />
+              <img className="h-12 rounded-2xl w-12" src={image} alt="logo" />
             </Link>
           </div>
 
-          <div className="hidden lg:flex space-x-4 text-white">
+          <div className="hidden lg:flex space-x-10 text-white">
             <Link className="hover:text-blue-400" to="/">
               Home
             </Link>
@@ -63,7 +63,7 @@ function Navbar() {
             </Link>
           </div>
 
-          <div className="hidden lg:flex gap-2 text-white text-2xl">
+          <div className="hidden lg:flex gap-5 text-white text-2xl">
             <a href="https://github.com/ashuthikole2004">
               <IoLogoGithub />
             </a>

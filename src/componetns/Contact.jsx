@@ -48,7 +48,7 @@ function Contact() {
         >
           Get in Touch
         </motion.h1>
-        <div className="grid sm:grid-cols-2 items-start gap-16 p-4 mx-auto max-w-4xl  font-[sans-serif]">
+        <div className="grid sm:grid-cols-2 items-start gap-16 p-4 mx-auto max-w-6xl">
           <div>
             <h1 className="text-gray-200 text-3xl font-extrabold">
               Let's Connect

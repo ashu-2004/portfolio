@@ -20,7 +20,7 @@ function Home() {
 
   return (
     <>
-      <div id="Home" className="border-b border-neutral-900 pt-5 lg:mb-35">
+      <div id="Home" className="border-b border-neutral-900 pt-5 mt-20">
         <div className="flex flex-col-reverse lg:flex-row justify-items-stretch">
           <div className="w-full lg:w-1/2  lg:ml-20">
             <div className="flex flex-col lg:items-start pl-4">

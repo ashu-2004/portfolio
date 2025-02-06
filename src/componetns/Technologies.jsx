@@ -2,12 +2,13 @@ import { FaReact } from "react-icons/fa";
 import { TbBrandJavascript } from "react-icons/tb";
 import { FaJava } from "react-icons/fa6";
 import { FaPhp } from "react-icons/fa";
-import { IoLogoCss3 } from "react-icons/io";
+import { IoLogoCss3, IoLogoNodejs } from "react-icons/io";
 import { TbBrandCpp } from "react-icons/tb";
 import { FaHtml5 } from "react-icons/fa";
 import img from "../assets/c.png";
 import img1 from "../assets/dsa.png";
 import { motion } from "framer-motion";
+import { SiMongodb } from "react-icons/si";
 
 function Technologies() {
   return (
@@ -64,13 +65,22 @@ function Technologies() {
           >
             <TbBrandCpp className="text-7xl text-blue-600" />
           </motion.div>
+
           <motion.div
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.9 }}
             className="rounded-2xl border-4 border-neutral-800 p-4"
           >
-            <FaHtml5 className="text-7xl text-blue-600" />
+            <IoLogoNodejs className="text-7xl text-lime-600" />
           </motion.div>
+          <motion.div
+            whileHover={{ scale: 1.1 }}
+            whileTap={{ scale: 0.9 }}
+            className="rounded-2xl border-4 border-neutral-800 p-4"
+          >
+            <SiMongodb className="text-7xl text-green-800" />
+          </motion.div>
+
           <motion.div
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.9 }}
