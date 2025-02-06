@@ -59,7 +59,7 @@ function Home() {
                 className="rounded-3xl h-full [background:radial-gradient(95%_95%_at_50%_10%,#fff_0%,#63e_95%)]"
               >
                 <img
-                  className="rounded-3xl h-80 lg:h-96 pb-4"
+                  className="rounded-3xl h-80 lg:h-96"
                   src={img}
                   alt="Ashwini Thikole"
                 />
