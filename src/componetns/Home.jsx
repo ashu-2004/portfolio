@@ -36,7 +36,7 @@ function Home() {
                 variants={container(1)}
                 initial="hidden"
                 animate="visible"
-                className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-300 bg-clip-text text-4xl tracking-tight text-center text-transparent font-bold"
+                className="bg-gradient-to-r lg:text-4xl from-pink-300 via-slate-500 to-purple-300 bg-clip-text text-2xl tracking-tight text-center text-transparent font-bold"
               >
                 Full Stack Developer
               </motion.span>
