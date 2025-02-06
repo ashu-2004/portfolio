@@ -101,5 +101,5 @@ export const PROJECTS = [
 export const CONTACT = {
   address: "A/P Pandeshwar Tal-Purandar Dist-Pune Pin: 412303",
   phoneNo: "+91 9359395693",
-  email: "ashwinithikole@gmail.com",
+  email: "thikoleashwini@gmail.com",
 };

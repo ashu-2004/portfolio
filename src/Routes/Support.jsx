@@ -23,6 +23,7 @@ import { Outlet } from "react-router-dom";
 import Container from "../componetns/Container";
 import Navbar from "../componetns/Navbar";
 import ParticleBackground from "../componetns/ParticleBackground";
+import Footer from "../componetns/Footer";
 
 function Support() {
   return (
@@ -37,6 +38,7 @@ function Support() {
           <Outlet />
         </Container>
       </div>
+      <Footer></Footer>
     </div>
   );
 }
