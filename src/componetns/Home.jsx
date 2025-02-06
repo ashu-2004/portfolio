@@ -22,7 +22,7 @@ function Home() {
     <>
       <div id="Home" className="border-b border-neutral-900 pt-5 mt-20">
         <div className="flex flex-col-reverse lg:flex-row justify-items-stretch">
-          <div className="w-full lg:w-1/2  lg:ml-20">
+          <div className="w-full lg:w-1/2 lg:ml-20">
             <div className="flex flex-col lg:items-start pl-4">
               <motion.h1
                 variants={container(0.5)}
@@ -38,7 +38,7 @@ function Home() {
                 animate="visible"
                 className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-300 bg-clip-text text-4xl tracking-tight text-center text-transparent font-bold"
               >
-                Full Stack Developer 
+                Full Stack Developer
               </motion.span>
               <motion.p
                 variants={container(1.5)}
@@ -47,10 +47,20 @@ function Home() {
                 className="my-2 lg:mx-0 sm:mx-auto max-w-xl py-6 font-light text-justify"
               >
                 {MY_CONTENT}
+                <p className="mt-4 flex sm:justify-center lg:justify-start">
+                  <a
+                    href="/Ashwini_Thikole_Resume.pdf"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-block px-6 py-3 text-lg font-semibold text-white bg-gradient-to-r from-blue-500 to-purple-600 rounded-lg shadow-md transition-all duration-300 hover:scale-105 hover:shadow-lg"
+                  >
+                    📄 View My Resume
+                  </a>
+                </p>
               </motion.p>
             </div>
           </div>
-          <div className="w-full lg:w-1/2 lg:p-8">
+          <div className="w-full lg:w-1/2 lg:p-20">
             <div className="flex justify-center">
               <motion.div
                 initial={{ x: 100, opacity: 0 }}
