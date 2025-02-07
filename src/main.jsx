@@ -1,7 +1,7 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import App from "./App.jsx";
-import { RouterProvider, createBrowserRouter } from "react-router-dom";
+import { RouterProvider, createHashRouter } from "react-router-dom";
 import "./index.css";
 import Technologies from "./componetns/Technologies.jsx";
 import Home from "./componetns/Home.jsx";
@@ -12,7 +12,7 @@ import Education from "./componetns/Education.jsx";
 import Contact from "./componetns/Contact.jsx";
 import Certificates from "./componetns/Certificates.jsx";
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path: "/",
     element: <Support></Support>,

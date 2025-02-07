@@ -12,6 +12,8 @@ import img3 from "../assets/certificates/3.jpg";
 import img4 from "../assets/certificates/4.jpg";
 import img5 from "../assets/certificates/5.png";
 
+import "./Certificates.css"; 
+
 const Certificates = () => {
   return (
     <div id="Education" className="border-b border-neutral-900 pb-10 lg:m-24 m-5">
@@ -24,10 +26,10 @@ const Certificates = () => {
          Certificates
         </motion.h1>
 
-      <div className="max-w-3xl mx-auto">
+      <div className="max-w-3xl mx-auto relative">
         <Swiper
           modules={[Navigation, Pagination, Autoplay]}
-          navigation
+          navigation={{ nextEl: ".swiper-button-next", prevEl: ".swiper-button-prev" }}
           pagination={{ clickable: true }}
           autoplay={{ delay: 2500, disableOnInteraction: false }}
           loop={true}
@@ -43,6 +45,9 @@ const Certificates = () => {
             </SwiperSlide>
           ))}
         </Swiper>
+ 
+        <div className="swiper-button-prev"></div>
+        <div className="swiper-button-next"></div>
       </div>
     </div>
   );
