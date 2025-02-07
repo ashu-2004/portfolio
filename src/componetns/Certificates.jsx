@@ -16,12 +16,12 @@ import "./Certificates.css";
 
 const Certificates = () => {
   return (
-    <div id="Education" className="border-b border-neutral-900 pb-10 lg:m-24 m-5">
+    <div id="Education" className="border-b border-neutral-900  lg:m-24 ">
       <motion.h1
           whileInView={{ opacity: 1, y: 0 }}
           initial={{ opacity: 0, y: -100 }}
           transition={{ duration: 1 }}
-          className="my-20 text-center text-4xl"
+          className="my-2 lg:my-20 text-center text-4xl"
         >
          Certificates
         </motion.h1>
