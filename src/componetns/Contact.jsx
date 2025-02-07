@@ -26,7 +26,7 @@ function Contact() {
     emailjs
       .send(serviceId, templateId, templateParams, publicKey)
       .then((response) => {
-        console.log("Email sent successfully!", response);
+        alert("Thanks for your message! I'll review your message and get in touch soon.");
         setName("");
         setEmail("");
         setMessage("");
@@ -136,6 +136,7 @@ function Contact() {
               value={name}
               onChange={(e) => setName(e.target.value)}
               className="w-full rounded-md py-3 px-4 border-2 bg-zinc-900 text-gray-200 text-sm outline-blue-500 focus:bg-transparent"
+              required
             />
             <input
               type="email"
@@ -144,6 +145,7 @@ function Contact() {
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               className="w-full rounded-md py-3 px-4 border-2 bg-zinc-900 text-gray-200 text-sm outline-blue-500 focus:bg-transparent"
+              required
             />
             <input
               type="text"
@@ -152,6 +154,7 @@ function Contact() {
               value={subject}
               onChange={(e) => setSubject(e.target.value)}
               className="w-full rounded-md py-3 px-4 border-2 bg-zinc-900 text-gray-200 text-sm outline-blue-500 focus:bg-transparent"
+              required
             />
             <textarea
               placeholder="Message"
@@ -160,6 +163,7 @@ function Contact() {
               value={message}
               onChange={(e) => setMessage(e.target.value)}
               className="w-full rounded-md py-3 px-4 border-2 bg-zinc-900 text-gray-200 text-sm outline-blue-500 focus:bg-transparent"
+              required
             ></textarea>
             <button
               type="submit"
